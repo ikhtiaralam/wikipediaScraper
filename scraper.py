@@ -35,8 +35,7 @@ class Scraper():
         wikilist.append(len(text))
 
         return wikilist
-       
-       
+             
 wiki = Scraper()
 
 wiki.scrapdata()
